@@ -106,6 +106,9 @@ build_msvc
 # needed to trigger "pod install" to rerun the preinstall commands.
 Pods/
 
+.build/
+output/
+
 # Comformance test output
 conformance/.libs/
 conformance/com/
